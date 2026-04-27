@@ -92,7 +92,7 @@ In general there are two types of proxy cards you will encounter;
 
 - custom printed proxies: by far the most commonly used, these are websites that will print to order a list of your desired cards and usually have multiple options for which art and card front designs to use. These almost always have non-standard card backs so its easy to tell from the back of the card that its a proxy.
 
-- "bootleg" proxy cards: these are cards designed to be 1:1 replicas of "real" Magic cards and look identical to official cards. Note that the term "real MTG cards" itself is pretty ambiguous since WotC does not even print their own cards and instead offloads printing to multiple third party contractors of inconsistent print quality, so the notion that these cards are "less real" is itself kinda iffy. Regardless these cards come in a range of qualities but these days most are indistinguishable from real cards unless you use a magnifying glass to examine them.
+- "bootleg" proxy cards: these are cards designed to be 1:1 replicas of "real" Magic cards and look identical to official cards. Note that the term "real MTG cards" itself is pretty ambiguous since WotC does not even print their own cards and instead offloads printing to multiple third party contractors of inconsistent print quality, so the notion that these cards are "less real" is itself kinda iffy. Regardless these cards come in a range of qualities but these days most are indistinguishable from real cards unless you [use a magnifying glass to examine them](https://www.mtginformation.com/counterfeits).
 
 Most proxy card platforms have robust online communities backing them, so be sure to look for their associated Discord and Reddit groups for more details and resources.
 
@@ -113,6 +113,10 @@ Its important to note that the card fronts shown at MPCFill are *not* the origin
 You will want to use the main designer website at https://www.makeplayingcards.com/ to upload your deck (either via pasting in plain-text or, preferred, supplying a public Moxfield etc. deck list URL), then when you are finished custominzing your deck save the .XML file (important!) and run it via command line tool https://github.com/chilli-axe/mpc-autofill/releases/tag to upload the final design straight to the MPC website for checkout. Make sure to use the S33 paper stock for good results.
 
 Note that the cards produced by MPC are printed and shipped from China so take this into account when estimating costs and delivery times. Delivery can take upwards of 14+ days. However the printing quality and final results are above that of other platforms so in general it is worth the wait if you are looking for these custom printed cards. Another note, since they are China-based the company seems to be subject to week-long shut down during certain Chinese holidays, so plan your orders accordingly.
+
+#### Self-Printed
+
+There are various resources and communities online that will show you how to print your own proxies at home. The MPC Fill community includes extensive guides on this. Also YouTuber's such as CryCry have detailed guides for this too such as https://www.youtube.com/watch?v=I077so_dEzU
 
 #### MTG Proxy / Printing Proxies
 
