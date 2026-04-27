@@ -112,7 +112,7 @@ Its important to note that the card fronts shown at MPCFill are *not* the origin
 
 You will want to use the main designer website at https://www.makeplayingcards.com/ to upload your deck (either via pasting in plain-text or, preferred, supplying a public Moxfield etc. deck list URL), then when you are finished custominzing your deck save the .XML file (important!) and run it via command line tool https://github.com/chilli-axe/mpc-autofill/releases/tag to upload the final design straight to the MPC website for checkout. Make sure to use the S33 paper stock for good results.
 
-Note that the cards produced by MPC are printed and shipped from China so take this into account when estimating costs and delivery times. Delivery can take upwards of 14+ days. However the printing quality and final results are above that of other platforms so in general it is worth the wait if you are looking for these custom printed cards.
+Note that the cards produced by MPC are printed and shipped from China so take this into account when estimating costs and delivery times. Delivery can take upwards of 14+ days. However the printing quality and final results are above that of other platforms so in general it is worth the wait if you are looking for these custom printed cards. Another note, since they are China-based the company seems to be subject to week-long shut down during certain Chinese holidays, so plan your orders accordingly.
 
 #### MTG Proxy / Printing Proxies
 
@@ -120,3 +120,21 @@ Note that the cards produced by MPC are printed and shipped from China so take t
 - https://www.printingproxies.com/
 
 Based in the USA, this platform produces low quality custom printed cards for roughly the same price as MPC but with vastly worse quality. While MPC cards look and feel like "real" playing cards, the cards produced by MTG Proxy and its sister websites (there are several, all with the same owner) look and feel like they were printed on a cereal box. The owner of the site has many unprofessional tendencies such as soliciting customers to post positive reviews on his TrustPilot business page which he spams links to everywhere, and publicly berates customers who give negative feedback and bans them from his Discord and deletes their messages and any posts questioning the inferior quality of recieved cards. Additionally, this website hosts and uses stolen card assets from both the MPC Fill community and from Scryfall and other official MTG platforms, and many of the card fronts they provide have the holographic stamp printed on them in plain ink which looks extremely ugly in real life. Interestingly, they sell their own holo stamps to remedy this issue and they are one of the only providers on the internet who sell these. Its not clear how this business persists in the USA in spite of its blatant copyright infringement but regardless its best to not waste your time or money on them when you can get higher quality MPC + MPCFill custom printed proxies for the same price.
+
+#### NotMPC
+
+- https://notmpc.com/
+
+Based in the USA, this company is relatively new (as of time of writing) and was flagged as a "scam" but actually is a legitimate business. They seeemingly ripped off the website for MPC while marketing themselves as a USA-based alternative to MPC. The business ethics of all this is fishy but they do indeed offer custom printed proxy cards, with the main selling point being that they are based in the USA (West Coast) for slightly faster delivery times than MPC. In practice, MPC usually takes 10-15+ days to deliver, whereas USA-based customers might expect closer to 5-7 days delivery from NotMPC.
+
+Since they ripped off the MPC website, NotMPC's website is surpsingly compatible with MPC Fill; simply upload the .XML file from your MPC Fill deck and it should work on NotMPC. This is very convenient.
+
+In regards to print quality, it is not actually on par with the real MPC, and is surprisingly similar to the quality of MTG Proxy. Not sure if they use the same printing machinery or printing providers or such.
+
+Overall this website is legitimate but given their quality I would typically just wait the extra 5-7 days for delivery from the real MPC instead.
+
+#### Proxy Printery
+
+- https://proxyprintery.com
+
+A Europe-based custom print proxy website. Notably they are one of the only vendors of holo stamps online, selling their one versions of the foil holo stamps that adorn MTG Rare and Mythic Rare cards - the versions they sell include their own wizard mascot logo embedded in the foil stickers in lieue of the WotC mana symbols. The stickers look very good and are a great replacement for foil stickers on any custom cards that may need them. Due to being based in Europe, shipping times to destinations outside of Europe may be very long.
