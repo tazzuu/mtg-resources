@@ -101,10 +101,22 @@ Most proxy card platforms have robust online communities backing them, so be sur
 #### MPCFill + MPC
 
 - https://mpcfill.com/
+  - https://github.com/chilli-axe/mpc-autofill
 - https://www.makeplayingcards.com/
 - https://www.reddit.com/r/mpcproxies/
 - https://www.reddit.com/r/magicproxies/
 
 This is a combination of two resources; MPC (MakePlayingCards.com) is a website for a printing company based out of China who produce extremely high quality custom printed playing cards. MPCFill is an open source community & web based design platform used to design free open source third party card fronts and card backs to use for creating proxy MTG cards with MPC.
 
-Its important to note that the card fronts shown at MPCFill are *not* the original card fronts. Instead they are custom designed by community members using some of the official MTG artwork and several different card-frame and border templating engines.
+Its important to note that the card fronts shown at MPCFill are *not* the original card fronts. Instead they are custom designed by community members using some of the official MTG artwork and several different card-frame and border templating engines. These cards are always printed with non-standard backs as well.
+
+You will want to use the main designer website at https://www.makeplayingcards.com/ to upload your deck (either via pasting in plain-text or, preferred, supplying a public Moxfield etc. deck list URL), then when you are finished custominzing your deck save the .XML file (important!) and run it via command line tool https://github.com/chilli-axe/mpc-autofill/releases/tag to upload the final design straight to the MPC website for checkout. Make sure to use the S33 paper stock for good results.
+
+Note that the cards produced by MPC are printed and shipped from China so take this into account when estimating costs and delivery times. Delivery can take upwards of 14+ days. However the printing quality and final results are above that of other platforms so in general it is worth the wait if you are looking for these custom printed cards.
+
+#### MTG Proxy / Printing Proxies
+
+- https://www.mtgproxy.com/
+- https://www.printingproxies.com/
+
+Based in the USA, this platform produces low quality custom printed cards for roughly the same price as MPC but with vastly worse quality. While MPC cards look and feel like "real" playing cards, the cards produced by MTG Proxy and its sister websites (there are several, all with the same owner) look and feel like they were printed on a cereal box. The owner of the site has many unprofessional tendencies such as soliciting customers to post positive reviews on his TrustPilot business page which he spams links to everywhere, and publicly berates customers who give negative feedback and bans them from his Discord and deletes their messages and any posts questioning the inferior quality of recieved cards. Additionally, this website hosts and uses stolen card assets from both the MPC Fill community and from Scryfall and other official MTG platforms, and many of the card fronts they provide have the holographic stamp printed on them in plain ink which looks extremely ugly in real life. Interestingly, they sell their own holo stamps to remedy this issue and they are one of the only providers on the internet who sell these. Its not clear how this business persists in the USA in spite of its blatant copyright infringement but regardless its best to not waste your time or money on them when you can get higher quality MPC + MPCFill custom printed proxies for the same price.
