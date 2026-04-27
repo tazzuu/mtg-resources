@@ -138,3 +138,37 @@ Overall this website is legitimate but given their quality I would typically jus
 - https://proxyprintery.com
 
 A Europe-based custom print proxy website. Notably they are one of the only vendors of holo stamps online, selling their one versions of the foil holo stamps that adorn MTG Rare and Mythic Rare cards - the versions they sell include their own wizard mascot logo embedded in the foil stickers in lieue of the WotC mana symbols. The stickers look very good and are a great replacement for foil stickers on any custom cards that may need them. Due to being based in Europe, shipping times to destinations outside of Europe may be very long.
+
+### Replica "Boot Leg" Cards
+
+There are many vendors that supply bootleg MTG cards which are intended to be 1:1 replicas of real cards. Unlike the custom printed proxy vendors who print cards to order, these cards are pre-printed and sold as-is based on available stock.
+
+You can find details on several such vendors at the main reddit page
+
+- https://www.reddit.com / r / bootlegmtg
+
+Be sure to check the Wiki for the link to the main Discord, and from the Discord you can find links to individual vendors. Some notable vendors will be highlighted here. This is not a complete list of avaialble vendors just an overview of some.
+
+Note that some vendors are themselves orchestrating the design and printing of the cards that they sell, while others are only resellers of cards printed by the former group. Nearly all non-China based vendors fall into this second category of resellers. Prices for cards from vendors who get their own printings are usually in the range of $1.50 - $3 USD each, while prices from resellers are usually in the range of $3 each. Foil and non-foil cards are usually the same price, or near identical price. Vendors who are organizing their own printing may or may not sell all their cards as single and may offer packs of pre-selected cards in the range of ~56 cards per pack for a price of roughly $56-65 USD per pack.
+
+#### Black Lotus (BL)
+
+Offers a large inventory of cards both as singles and in packs. Previously the most convenient way to order was to find the link to his Google Sheet in the Discord server and then follow the embedded links to his Ali Express pages offering the cards or packs listed. Now there is a dedicated site it seems at https://blacklotuscards . com . This vendor is notable for having an extensive list of pre-selected card packs which include many MTG staples. They also have sets of speciality foil cards which are very high quality.
+
+#### Underground Sea (Usea)
+
+- https://www . agamecardshop . com
+
+Based out of China, this vendor also has a convenient website. If you check their Discord (linked from the main bootletmtg Discord) they also have links to a Google Sheets based decklist importer to help match up cards from your decklist to available inventory. This vendor is also notable for offering many bundles and fixed sets of common cards such as dual lands, and thus is a great place to get low cost sets of duals, shock lands, and other staples that you will need in many decks. After you place an order on the website you will usually get an email within 24hrs with the payment details (they do billing manually for orders placed online).
+
+#### BootletMage
+
+- https://bootlegmage . com
+
+A USA based reseller offering a large inventory of cards. Their cards are high quality and this vendor is very reliable however due to popularity the processing and delivery times can be a little lengthy and sometimes unpredicatble. This is a good vendor to order cards from for slightly faster delivery than you would get from a China based vendor but be sure to cross check inventory against other vendors because they run out of stock often on popular cards. They frequently update their stock so subscribe to their page for updates. Also they have (had?) a built in deck list importer in their site. Be sure to check their Discord, they are very communicative and offer good service.
+
+#### Tolarian Library
+
+- https://tolarianlibrary . com
+
+A USA based reseller. This one is not part of the Reddit /r/bootlegmtg group and instead has a reddit at https://www.reddit.com/r/CreateMTG/ . This reseller is notable for insanely fast shipping speeds. While most other USA based resellers are delivering cards in about 5-10 business days (sometimes longer), Tolarian Library somehow manages to consistenly deliver within 3-5 business days. Its not uncommon for orders placed on Saturday or Sunday to arrive at your door by Thursday or Friday. The quality of their cards is the same as all other bootleg vendors, and their website includes a deck list importer as well. They have some sort of community-based printing request system in place as well. Overall this is an extremely high quality and reputable vendor for USA-based customers.
