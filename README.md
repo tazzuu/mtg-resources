@@ -32,6 +32,14 @@ Super high quality platform to build MTG decks and share them online.
 
 Another high quality deck building website.
 
+## Card Cataloging
+
+### Shiny
+
+- https://www.getshiny.io/
+
+You can use the Shiny app to scan and catalogue your paper cards. The Pro version allows for .csv and .json export of your collection which is very useful for importing to Moxfield via a [deck list converter program](https://github.com/tazzuu/mtgconv).
+
 # Digital Play Platforms
 
 ### Rules Engine Platforms
