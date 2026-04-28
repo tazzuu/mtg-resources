@@ -100,7 +100,7 @@ If you are gonna pay money for real cards the best places to shop are [TCG Playe
 
 In general there are two types of proxy cards you will encounter;
 
-- custom printed proxies: by far the most commonly used, these are websites that will print to order a list of your desired cards and usually have multiple options for which art and card front designs to use. These almost always have non-standard card backs so its easy to tell from the back of the card that its a proxy.
+- custom printed proxies: by far the most commonly used, these cards are printed custom on demand. They are usually offered by websites which will print to order a list of your desired cards and usually have multiple options for which art and card front designs to use. These almost always have non-standard card backs so its easy to tell from the back of the card that its a proxy.
 
 - "bootleg" proxy cards: these are cards designed to be 1:1 replicas of "real" Magic cards and look identical to official cards. Note that the term "real MTG cards" itself is pretty ambiguous since WotC does not even print their own cards and instead offloads printing to multiple third party contractors of inconsistent print quality, so the notion that these cards are "less real" is itself kinda iffy. Regardless these cards come in a range of qualities but these days most are indistinguishable from real cards unless you [use a magnifying glass to examine them](https://www.mtginformation.com/counterfeits).
 
