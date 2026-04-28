@@ -44,6 +44,8 @@ Platforms with a built in rules engine allow you to play MTG like any other vide
 
 Play against AI opponents here. Also includes single player Campaign modes.
 
+Card Forge lets you easily import your own decks to play with. You can play against included decks, and you can download some top decks from Moxfield and Archidekt to load into Forge here: https://github.com/tazzuu/mtg-decks
+
 #### X-Mage
 
 - https://github.com/magefree/mage
