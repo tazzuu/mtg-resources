@@ -143,11 +143,130 @@ There are a million other tabletop simulators you can find online, try them if y
 you can play the official digital versions of Magic on [Arena](https://magic.wizards.com/en/mtgarena) and [MTG Online](https://www.mtgo.com/home) though these both have serious issues and downsides such as limited OS compatibility and locked-in cards as digital objects meaning you cannot just load up any deck you want you have to actually pay money for digital cards to play with. Yuck.
 
 
+# Proxies & Card Sources
+
+Now that you have thoroughly play tested your deck digitally (for free!) its time to start assembling a paper version of the deck, preferably without breaking the bank.
+
+## Buying real cards
+
+You are gonna want to order any preferred real copies of cards from platforms such as [ManaPool](https://manapool.com/), [TCG Player](https://www.tcgplayer.com/), or simply [eBay](https://www.ebay.com/). I find that ManaPool is one of the best sources, because it gives you the option to pay for tracked shipping. This is typically required for orders $50+ USD, but is a boon even for smaller orders in the USA that can easily get lost or delayed by USPS. Tracked shipping is much more reliable and much faster, for both real and proxy cards. TCG Player does not expose these shipping options so it can be unpredictable what type of shipping you get, and so its very common for TCG Player orders shipped untracked via USPS to get lost, rejected, or take 3+ weeks to arrive.
+
+It can still be economical to buy real cards especially for cards that cost less than about $0.50 USD which you may not need quickly, or if you want special versions of cards such as promo stamped or Pre Release date stamped cards.
+
+## Proxy Cards
+
+The section you have all been waiting for. Now its time to start looking at options online for proxy cards. There are many.
+
+In general, there are two types of proxy cards you will encounter:
+
+- custom printed: these are cards which are printed on demand, usually with custom card fronts and non-standard card backs.
+
+- "bootleg" cards: these are cards which are designed to look identical to "real" cards, with original accurate card fronts and standard MTG card backs.
+
+### Custom Printed
 
 
+#### MPCFill + MPC
+
+- https://mpcfill.com/
+  - https://github.com/chilli-axe/mpc-autofill
+- https://www.makeplayingcards.com/
+- https://www.reddit.com/r/mpcproxies/
+- https://www.reddit.com/r/magicproxies/
+
+MPC (Make Playing Cards) is a Chinese vendor that prints custom cards of various types. MPCFill is a software and community project to easily create templates of custom designed MTG cards to be printed with MPC.
+
+This combination of MPC + MPCFill results in high quality cards, albeit with non-standard card fronts and card backs.
+
+The card fronts and arts provided on MPCFill are *not* original card scans. They are typically made by hand by members of the MPCFill Community in an effort to provide "open source" versions of MTG card fronts for use with proxy play. As such, many (if not all) MPCFill card fronts will include deliberate discrepancies compared to the original cards, including things such as different or missing set logos, altered or missing Copyright text, lack of holographic stamps, and other changes to the card frames and typesetting. These cards are always printed with non-standard backs to identify them as proxy cards and not original MTG cards.
+
+MakePlayingCards' product is one of the higher quality ones on the market, especially when ordered with S33 paper, they feel like "real" playing cards and not cheap knock offs. You will want to use the main designer website at https://www.makeplayingcards.com/ to upload your deck (either via pasting in plain-text or, preferred, supplying a public Moxfield etc. deck list URL), then when you are finished custominzing your deck save the .XML file (important!) and run it via command line tool https://github.com/chilli-axe/mpc-autofill/releases/tag to upload the final design straight to the MPC website for checkout. Make sure to use the S33 paper stock for good results.
+
+Note that the cards produced by MPC are printed and shipped from China so take this into account when estimating costs and delivery times. Delivery can take upwards of 14+ days. However the printing quality and final results are above that of other platforms so in general it is worth the wait if you are looking for these custom printed cards. Another note, since they are China-based the company seems to be subject to week-long shut down during certain Chinese holidays, so plan your orders accordingly.
+
+Prices for these cards typically run roughly $0.40/card depending on the size of your order. I would consider this to be a fantastic price considering the quality of the product, a full Commander deck can be printed for roughly $40-50, plus shipping and taxes and fees (tariffs).
 
 
+#### Self-Printed
 
+There are various resources and communities online that will show you how to print your own proxies at home. The MPC Fill community includes extensive guides on this. Also YouTuber's such as CryCry have detailed guides for this too such as https://www.youtube.com/watch?v=I077so_dEzU
+
+You can also use MPCFill as the basis for self-printing your own proxy cards instead of ordering them from MPC. The following websites help with this;
+
+- https://devprint.taxiera.net/
+- https://proxxied.com/
+
+Both of these sites allow you to import or create your decklist for the purpose of printing it yourself, formatted into a PDF with the cards arranged on the page to be cut out easily. If you want to print directly to card stock, you can refer to the previously mentioned self-print guides on the printer type, paper types, and ink types to use. Or if you just need to make quick cheap proxies, you can print these PDFs onto plain office paper using any color printer, cut them out and glue them lightly to basic Land cards and then slide them into deck sleeves and call it a day. This tends to be my preferred option when I am stuck waiting 3+ weeks on "real" cards from TCG Player and just need placeholders while I am filling out the deck.
+
+
+#### Proxy Printery
+
+- https://proxyprintery.com
+
+A Europe-based custom print proxy website. Notably they are one of the only vendors of holo stamps online, selling their versions of the foil holo stamps that adorn MTG Rare and Mythic Rare cards - the versions they sell include their own wizard mascot logo embedded in the foil stickers in lieu of the WotC mana symbols. The stickers look very good and are a great replacement for foil stickers on any custom cards that may need them. Due to being based in Europe, shipping times to destinations outside of Europe may be very long.
+
+#### MTG Proxy / Printing Proxies
+
+- https://www.mtgproxy.com/
+- https://www.printingproxies.com/
+
+Based in the USA, this platform produces low quality custom printed cards for roughly the same price as MPC but with vastly worse quality. While MPC cards look and feel like "real" playing cards, the cards produced by MTG Proxy and its sister websites (there are several, all with the same owner) look and feel like they were printed on a cereal box. The owner of the site has many unprofessional tendencies such as soliciting customers to post positive reviews on his TrustPilot business page which he spams links to everywhere, and publicly berating customers who give negative feedback and ban them from his Discord and deletes their messages and any posts questioning the inferior quality of recieved cards. Additionally, this website hosts and uses stolen card assets from both the MPC Fill community and from Scryfall and other official MTG platforms, and many of the card fronts they provide have the holographic stamp printed on them in plain ink which looks extremely ugly in real life. Interestingly, they sell their own holo stamps to remedy this issue and they are one of the only providers on the internet who sell these. Its not clear how this business persists in the USA in spite of its blatant copyright infringement but regardless its best to not waste your time or money on them when you can get higher quality MPC + MPCFill custom printed proxies for the same price.
+
+#### NotMPC
+
+- https://notmpc.com/
+
+Based in the USA, this company is relatively new (as of time of writing). They seemingly ripped off the website for MPC while marketing themselves as a USA-based alternative to MPC. The business ethics of all this is fishy but they do indeed offer custom printed proxy cards, with the main selling point being that they are based in the USA (West Coast) for slightly faster delivery times than MPC. In practice, China-based MPC usually takes 10-15+ days to deliver, whereas USA-based customers might expect closer to 5-7 days delivery from NotMPC. So there is indeed faster delivery time available from them.
+
+NotMPC's website is surpsingly compatible with MPC Fill; simply upload the .XML file from your MPC Fill deck and it should work on NotMPC. This is very convenient.
+
+In regards to print quality, it is not actually on par with the real MPC, and is surprisingly similar to the quality of MTG Proxy. Not sure if they use the same printing machinery or printing providers or such.
+
+Overall this website is legitimate but given their quality I would typically just wait the extra 5-7 days for delivery from the real MPC instead.
+
+### Replica "Boot Leg" Cards
+
+There are many vendors that supply bootleg MTG cards which are intended to be 1:1 replicas of real cards. Unlike the custom printed proxy vendors who print cards to order, these cards are pre-printed and sold as-is based on available stock. Vendors restock often, and update their stock as new MTG sets are released.
+
+You can find details on several such vendors at the main reddit page
+
+- https://www.reddit.com / r / boot leg mtg
+
+Be sure to check the Wiki for the link to the main Discord, and from the Discord you can find links to individual vendors. Some notable vendors will be highlighted here. This is not a complete list of avaialble vendors just an overview of some.
+
+Note that some vendors are themselves organizing the design and printing of the cards that they sell, while others are only resellers of cards printed by the former. Nearly all non-China based vendors fall into this second category of resellers. Prices for cards from vendors who get their own printings are usually in the range of $1.50 - $3 USD each, while prices from resellers are usually in the range of $3+ each. Foil and non-foil cards are usually the same price, or near identical price. Vendors who are organizing their own printing may or may not sell all their cards as single and may offer packs of pre-selected cards in the range of ~56 cards per pack for a price of roughly $56-65 USD per pack.
+
+#### Black Lotus (BL)
+
+- blacklotuscards . com
+
+Based out of China, this vendor offers a large inventory of cards both as singles and in packs. Previously the most convenient way to order was to find the link to his Google Sheet in the Discord server and then follow the embedded links to his Ali Express pages offering the cards or packs listed. Now there is a dedicated site it seems at blacklotuscards . com . This vendor is notable for having an extensive list of pre-selected card packs which include many MTG staples. They also have sets of speciality foil cards which are very high quality.
+
+#### Underground Sea (Usea)
+
+- agamecardshop . com
+
+Based out of China, this vendor also has a convenient website. If you check their Discord (linked from the main bootletmtg Discord) they also have links to a Google Sheets based decklist importer to help match up cards from your decklist to available inventory. This vendor is also notable for offering many bundles and fixed sets of common cards such as dual lands, and thus is a great place to get low cost sets of duals, shock lands, and other staples that you will need in many decks. After you place an order on the website you will usually get an email within 24hrs with the payment details (they do billing manually for orders placed online).
+
+#### BootlegMage
+
+- bootlegmage . com
+
+A USA based reseller offering a large inventory of cards. Their cards are high quality and this vendor is very reliable however due to popularity the processing and delivery times can be a little lengthy and sometimes unpredictable. This is a good vendor to order cards from for slightly faster delivery than you would get from a China based vendor but be sure to cross check inventory against other vendors because they often run out of stock on popular cards. They frequently update their stock so subscribe to their page for updates. Also they have (had?) a built in deck list importer in their site. Be sure to check their Discord, they are very communicative and offer good service. BootlegMage has been a staple of the community and and frequently offers help online to folks who are order from other vendors as well. Many thanks to him and his team for all their hard work.
+
+#### Tolarian Library / Last Genesis
+
+- lastgenesis . com
+
+A USA based reseller. This one is not part of the Reddit /r/bootlegmtg group and instead has (had) a reddit at https://www.reddit.com/r/CreateMTG/ . This reseller is notable for insanely fast shipping speeds. While most other USA based resellers are delivering cards in about 5-10 business days (sometimes longer), Tolarian Library somehow manages to consistenly deliver within 3-5 business days. Its not uncommon for orders placed on Saturday or Sunday to arrive at your door by Thursday or Friday. The quality of their cards is the same as all other bootleg vendors, and their website includes a deck list importer as well. They have some sort of community-based printing request system in place as well. Overall this is an extremely high quality and reputable vendor for USA-based customers. Note that they recently changed their name and their domain to "Last Genesis". Same vendor with the same high quality cards and same fast shipping.
+
+# Putting it all together
+
+Between the resources described here, we have complete coverage of all the essentail resources needed to prototype, test, and build Magic the Gathering decks, especially for the Commander format.
+
+- start building your decklist with online platforms
+- test your decks with digital free simulators
+- assemble your paper deck from a mix of vendors to suite your budget and desired card attributes
 
 # References
 
