@@ -208,7 +208,7 @@ A Europe-based custom print proxy website. Notably they are one of the only vend
 #### MTG Proxy / Printing Proxies
 
 - https://www.mtgproxy.com/
-- https://www.printingproxies.com/
+- https://www.printingproxies . com/
 
 Based in the USA, this platform produces low quality custom printed cards for roughly the same price as MPC but with vastly worse quality. While MPC cards look and feel like "real" playing cards, the cards produced by MTG Proxy and its sister websites (there are several, all with the same owner) look and feel like they were printed on a cereal box. The owner of the site has many unprofessional tendencies such as soliciting customers to post positive reviews on his TrustPilot business page which he spams links to everywhere, and publicly berating customers who give negative feedback and ban them from his Discord and deletes their messages and any posts questioning the inferior quality of recieved cards. Additionally, this website hosts and uses stolen card assets from both the MPC Fill community and from Scryfall and other official MTG platforms, and many of the card fronts they provide have the holographic stamp printed on them in plain ink which looks extremely ugly in real life. Interestingly, they sell their own holo stamps to remedy this issue and they are one of the only providers on the internet who sell these. Its not clear how this business persists in the USA in spite of its blatant copyright infringement but regardless its best to not waste your time or money on them when you can get higher quality MPC + MPCFill custom printed proxies for the same price.
 
