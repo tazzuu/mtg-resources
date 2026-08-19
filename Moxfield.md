@@ -160,13 +160,17 @@ To get the best results from using ChatGPT or Claude for deck building, its sugg
 
 - set up a dedicated "Project" within the app just for MTG, so that the AI is able to track "memory" of details of your deck building between Chat's grouped in the Project, and you are able to pin some prompts that will help guide the LLM through all of your Chats in the Project
 
+- make sure your Project and all its Chats are using a powerful model such as Claude's Opus, or whatever the equivalent is for ChatGPT, avoid lower tier models. If you have the option you should also make sure the "Reasoning" or "Effort" levels are set to "High" or higher, to force the LLM to evaluate its own suggestions as its writing them instead of just spewing out words at you
+
 In order for your Chats to be accessible from both your local laptop and from your mobile device its important to make sure the Project that you set up is not designated as "Local" only (previously called "CoWork" in the Claude app), since these are tied to your local laptop and cannot be accessed from mobile. Local Projects / Chats have advantages if you want to do more advanced things such as feeding Claude the Bulk Data JSON ( https://scryfall.com/docs/api/bulk-data ) from Scryfall for advanced card searches (this works a lot better than making the AI do http network calls to look up every card you're interested in over the internet), but I usually forgo this in order to keep my Chat's accessible from mobile. I tend to keep a separate MTG Project for such "Local" work and a separate MTG Project for non-local e.g. general deck review.
 
 In your Project you will want to include some Instructions for the LLM, which it is intended to follow for all Chats and interactions. Note that it will sometimes forget to follow these guidelines, but in most cases this will help steer it. I include this as my Instruction for the MTG Project
 
-> Give me feedback and advice for Magic the Gathering decks.
-> When discussing and evaluating cards, make sure to look up the actual details of cards and do not just rely on memory. Use sources like Scryfall online to check the card text to make sure you understand exactly what each card is doing.
-> I typically play test my decks on the MTG Card Forge app before taking them to the local game store, and use proxy cards as needed to avoid budget constraints
+    Give me feedback and advice for Magic the Gathering decks.
+
+    When discussing and evaluating cards, make sure to look up the actual details of cards and do not just rely on memory. Use sources like Scryfall online to check the card text to make sure you understand exactly what each card is doing.
+
+    I typically play test my decks on the MTG Card Forge app before taking them to the local game store, and use proxy cards as needed to avoid budget constraints
 
 You can try to customize this to help guide your project, the critical piece being to encourage the LLM to actively look up the text of cards that it is evaluating instead of relying from memory. This is especially important since new MTG sets are coming out frequently and you want the LLM to make sure its pulling up the accurate card text instead of just guessing.
 
@@ -184,14 +188,18 @@ Now that you have all this set up, to start building a deck, you do not actually
 
 - now that you have played a handful of digital playtests of your prototype deck against the computer in Forge, you can start a Chat in your MTG Project in ChatGPT / Claude to start asking for deck review. Use a prompt such as;
 
-> I am considering a commander deck with <Commander> as the Commander, help me trim this deck list to 100 cards and review the other cards in the sideboard for any potential swap ins. I want to keep this deck around bracket 3 level.
->
-> <paste in your plain text deck list as Exported from Moxfield, making sure to denote which is the Commander>
-> <include all of your Sideboard and Considering cards as well in the list, denoted as such>
->
-> I am interested in utilizing <xyz> and <abc> play style strategies and themes for this deck. From my early play tests in Forge, I identified that this deck seems to be struggling with <some issues - insert any observations you have from play tests here>.
-> Evaluate this deck and tell me if my proposed strategies are consistent and coherent, if the deck list supports the Commander's synergies, give me suggestions for any potential card swaps, and identify potential weaknesses and issues with the deck.
-> Make sure to look up the exact text of any cards you are unfamiliar with or unsure of from the internet instead of relying on memory
+.
+
+    I am considering a commander deck with <Commander> as the Commander, help me trim this deck list to 100 cards and review the other cards in the sideboard for any potential swap ins. I want to keep this deck around bracket 3 level.
+
+    <paste in your plain text deck list as Exported from Moxfield, making sure to denote which is the Commander>
+    <include all of your Sideboard and Considering cards as well in the list, denoted as such>
+
+    I am interested in utilizing <xyz> and <abc> play style strategies and themes for this deck. From my early play tests in Forge, I identified that this deck seems to be struggling with <some issues - insert any observations you have from play tests here>.
+
+    Evaluate this deck and tell me if my proposed strategies are consistent and coherent, if the deck list supports the Commander's synergies, give me suggestions for any potential card swaps, and identify potential weaknesses and issues with the deck.
+
+    Make sure to look up the exact text of any cards you are unfamiliar with or unsure of from the internet instead of relying on memory
 
 Once you have the Chat started with the AI, you will want to verify any proposed cards on Scryfall. Make sure to push back against it on any areas that it gets wrong, make sure it is looking up card texts from the Internet instead of from memory as needed, and force it to explain its reasonings clearly behind card swaps and deck adjustments.
 
@@ -284,7 +292,7 @@ Based in the USA, this company is relatively new (as of time of writing). They s
 
 NotMPC's website is surpsingly compatible with MPC Fill; simply upload the .XML file from your MPC Fill deck and it should work on NotMPC. This is very convenient.
 
-In regards to print quality, it is not actually on par with the real MPC, and is surprisingly similar to the quality of MTG Proxy. Not sure if they use the same printing machinery or printing providers or such.
+In regards to print quality, it is not actually on par with the real MPC, and is surprisingly similar to the quality of MTG Proxy. Not sure if they use the same printing machinery or printing providers or such. The company itself and some users have reported that their quality has "improved" since they first started, I have not placed any subsequent orders to evaluate this myself.
 
 Overall this website is legitimate but given their quality I would typically just wait the extra 5-7 days for delivery from the real MPC instead.
 
