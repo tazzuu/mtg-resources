@@ -142,6 +142,70 @@ There are a million other tabletop simulators you can find online, try them if y
 
 you can play the official digital versions of Magic on [Arena](https://magic.wizards.com/en/mtgarena) and [MTG Online](https://www.mtgo.com/home) though these both have serious issues and downsides such as limited OS compatibility and locked-in cards as digital objects meaning you cannot just load up any deck you want you have to actually pay money for digital cards to play with. Yuck.
 
+----
+
+## Using AI Tools for Deck Building
+
+🔥 WARNING: Hot spicy takes incoming! AI and its usage is a controversial and contentious topic 🔥
+
+AI based tools such as LLM's can be used effectively to help you with building a deck. However, the methods involved are not as simple as one might expect. Using LLM's effectively, for all purposes, is a skill that requires practice, no different from learning how to Google Search the most effectively for results online.
+
+The primary LLM platforms available to consumers are going to be OpenAI's ChatGPT (https://chatgpt.com/) and Anthropic's Claude (https://claude.ai). I have used both for deck building from their desktop applications, they function identically, and I will cover how I use them for deck building here. There is a third option in Google Gemini (https://gemini.google.com/) which you will often encounter via the Google Search interface, this one is by far the best for MTG Rules and Card Interaction questions, however, I dont maintain an active subscription to it and don't consult it (yet) for deck building so I dont have any input on it beyond the observation that its MTG Rules interpretations are incredible fast and far more accurate than ChatGPT or Claude.
+
+To get the best results from using ChatGPT or Claude for deck building, its suggested to do the following;
+
+- sign up for one of the "Pro" tier subscriptions so that you have access to the more powerful LLM models with higher usage caps; I use the Claude Max plan ($125/month) as my baseline for all Anthropic Claude usage (not just deckbuilding)
+
+- install the dedicated apps for your platform of choice, both ChatGPT and Claude offer robust mobile and desktop apps, you will want both
+
+- set up a dedicated "Project" within the app just for MTG, so that the AI is able to track "memory" of details of your deck building between Chat's grouped in the Project, and you are able to pin some prompts that will help guide the LLM through all of your Chats in the Project
+
+In order for your Chats to be accessible from both your local laptop and from your mobile device its important to make sure the Project that you set up is not designated as "Local" only (previously called "CoWork" in the Claude app), since these are tied to your local laptop and cannot be accessed from mobile. Local Projects / Chats have advantages if you want to do more advanced things such as feeding Claude the Bulk Data JSON ( https://scryfall.com/docs/api/bulk-data ) from Scryfall for advanced card searches (this works a lot better than making the AI do http network calls to look up every card you're interested in over the internet), but I usually forgo this in order to keep my Chat's accessible from mobile. I tend to keep a separate MTG Project for such "Local" work and a separate MTG Project for non-local e.g. general deck review.
+
+In your Project you will want to include some Instructions for the LLM, which it is intended to follow for all Chats and interactions. Note that it will sometimes forget to follow these guidelines, but in most cases this will help steer it. I include this as my Instruction for the MTG Project
+
+> Give me feedback and advice for Magic the Gathering decks.
+> When discussing and evaluating cards, make sure to look up the actual details of cards and do not just rely on memory. Use sources like Scryfall online to check the card text to make sure you understand exactly what each card is doing.
+> I typically play test my decks on the MTG Card Forge app before taking them to the local game store, and use proxy cards as needed to avoid budget constraints
+
+You can try to customize this to help guide your project, the critical piece being to encourage the LLM to actively look up the text of cards that it is evaluating instead of relying from memory. This is especially important since new MTG sets are coming out frequently and you want the LLM to make sure its pulling up the accurate card text instead of just guessing.
+
+Now that you have all this set up, to start building a deck, you do not actually start with the LLM. Instead, you start where any normal deck building exercise starts; the very resources mentioned previously in this guide! Moxfield / Archidekt, EDHRec, Scryfall. I usually follow these basic steps:
+
+- if I am not yet sure what Commander to try, browse EDHRec to look at options for Commanders in different color combos
+
+- once a Commander is chosen, create a prototype Deck List on Moxfield / Archidekt, and start filling it with synergistic cards, possibly from EDHRec.
+
+- check Moxfield / Archidekt for highly rated existing decks that use or include your Commander, including any existing [pre-con decks](https://moxfield.com/decks/public?q=eyJmb3JtYXQiOiJjb21tYW5kZXJQcmVjb25zIn0%3D) that might use your Commander or include it in the 99
+
+- dont forget to also search Google for decks that use the chosen Commander, often you will find YouTube video guides on proposed decks based on a given Commander; many of these YouTubers have their own pages on Moxfield / Archidekt which you can follow as well
+
+- once you have a very rough draft prototype decklist built in Moxfield / Archidekt, its time to start playtesting the deck in [Card Forge](https://github.com/Card-Forge/forge). You can manually import your decklist in Forge's deck editor, or you can use a program like [mtgconv](https://github.com/tazzuu/mtgconv) to export your decklist into the .dck decklist file format used by Forge and import it that way. Notes on the filesystem locations to place your custom decklist file, along with a pack of other highly rated exported .dck decklist files for you to play against in Forge, can all be found at the [mtg-decks](https://github.com/tazzuu/mtg-decks) repo. Forge also includes its own downloadable decks to play against too.
+
+- now that you have played a handful of digital playtests of your prototype deck against the computer in Forge, you can start a Chat in your MTG Project in ChatGPT / Claude to start asking for deck review. Use a prompt such as;
+
+> I am considering a commander deck with <Commander> as the Commander, help me trim this deck list to 100 cards and review the other cards in the sideboard for any potential swap ins. I want to keep this deck around bracket 3 level.
+>
+> <paste in your plain text deck list as Exported from Moxfield, making sure to denote which is the Commander>
+> <include all of your Sideboard and Considering cards as well in the list, denoted as such>
+>
+> I am interested in utilizing <xyz> and <abc> play style strategies and themes for this deck. From my early play tests in Forge, I identified that this deck seems to be struggling with <some issues - insert any observations you have from play tests here>.
+> Evaluate this deck and tell me if my proposed strategies are consistent and coherent, if the deck list supports the Commander's synergies, give me suggestions for any potential card swaps, and identify potential weaknesses and issues with the deck.
+> Make sure to look up the exact text of any cards you are unfamiliar with or unsure of from the internet instead of relying on memory
+
+Once you have the Chat started with the AI, you will want to verify any proposed cards on Scryfall. Make sure to push back against it on any areas that it gets wrong, make sure it is looking up card texts from the Internet instead of from memory as needed, and force it to explain its reasonings clearly behind card swaps and deck adjustments.
+
+As the LLM proposes changes, you can selectively update your prototype deck list in Moxfield, re-export the deck, play test the updated deck repeatedly, and report the findings back to the LLM. Make sure to emphasize the areas that seem to be underperforming, and include the details about your good and bad results in play tests.
+
+To assist with this process, I also start searching Scryfall for cards in the deck's Color Identity that have synergistic effects and keywords and include them in the Sideboard / Considering lists included with the LLM deck list prompts, and specifically ask it for evaluations of the included cards.
+
+Repeat this entire process many times. Add cards to proposed deck list, evaluate in Forge, report results and deck list to LLM for suggestions, swap cards, play test some more, update LLM chats and evaluate more swaps, search for more synergistic cards from EDHRec and Scryfall, etc..
+
+Finally after some time, you will feel comfortable with the prototype deck, and you can start assembling the deck in paper. See the next sections below on how to do that easily on a budget (hint: proxies).
+
+The important conclusion here is that the AI is just another tool to use, along with all the rest of the available tools such as Moxfield, Archidekt, EDHRec, Scryfall, Forge, in order to give you fast iterative development and review. It will not be 100% accurate in its suggestions, so it will take time and practice to get a feel for when to push back against it and when to second guess it. But it can also surface a large amounts of accurate and unexpected insights into your deck list and its strategies as well. The end result, is that the huge gains in speed of getting deck review results outweighs the effort required to keep the LLM on track and so you will overall end up with a much faster and more positive deck building result than you might get without it.
+
+----
 
 # Proxies & Card Sources
 
