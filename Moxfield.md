@@ -2,13 +2,13 @@
 
 A complete guide on the best resources to use for building Commander decks. This end-to-end guide covers the resources used to get started prototyping and play testing your deck digitally, and then turn it into a paper deck in a budget friendly manner via proxy cards.
 
----
-
-## Card & Deck Resources
+===accordion
+===panel: Card & Deck Resources
 
 These websites will be your best sources for details about cards
 
-### Card Databases
+===accordion
+===panel: Card Databases
 
 #### EDHRec
 
@@ -64,7 +64,11 @@ Another high quality deck building website.
 
 There are many other deck building websites out there, you can Google search for them.
 
-### Card Cataloging
+===endpanel
+===endaccordion
+
+===accordion
+===panel: Card Cataloging
 
 Once you have accumulated 1000's of paper cards, you need to start tracking your collection digitally so that you can easily reference it and look up which cards you own. These apps typically include the ability to scan your card with your phone's camera to identify it and add it to a collection in your account. You can usually export the collection in various formats for usage with different websites.
 
@@ -80,7 +84,11 @@ You can use the Shiny app to scan and catalogue your paper cards. The Pro versio
 
 Another very popular app for building and maintaining your digital card catalogue.
 
-## Digital Play Platforms
+===endpanel
+===endaccordion
+
+===accordion
+===panel: Digital Play Platforms
 
 Once you have built a prototype of your deck, you will want to take it for real play tests in order to see how it performs. There are two basic types of platforms for this: rules engines, and table top simulators.
 
@@ -142,9 +150,14 @@ There are a million other tabletop simulators you can find online, try them if y
 
 you can play the official digital versions of Magic on [Arena](https://magic.wizards.com/en/mtgarena) and [MTG Online](https://www.mtgo.com/home) though these both have serious issues and downsides such as limited OS compatibility and locked-in cards as digital objects meaning you cannot just load up any deck you want you have to actually pay money for digital cards to play with. Yuck.
 
-----
+===endpanel
+===endaccordion
 
-## Using AI Tools for Deck Building
+===endpanel
+===endaccordion
+
+===accordion
+===panel: Using AI Tools for Deck Building
 
 🔥 WARNING: Hot spicy takes incoming! AI and its usage is a controversial and contentious topic 🔥
 
@@ -213,19 +226,26 @@ Finally after some time, you will feel comfortable with the prototype deck, and 
 
 The important conclusion here is that the AI is just another tool to use, along with all the rest of the available tools such as Moxfield, Archidekt, EDHRec, Scryfall, Forge, in order to give you fast iterative development and review. It will not be 100% accurate in its suggestions, so it will take time and practice to get a feel for when to push back against it and when to second guess it. But it can also surface a large amounts of accurate and unexpected insights into your deck list and its strategies as well. The end result, is that the huge gains in speed of getting deck review results outweighs the effort required to keep the LLM on track and so you will overall end up with a much faster and more positive deck building result than you might get without it.
 
-----
+===endpanel
+===endaccordion
 
-# Proxies & Card Sources
+===accordion
+===panel: Proxies & Card Sources
 
 Now that you have thoroughly play tested your deck digitally (for free!) its time to start assembling a paper version of the deck, preferably without breaking the bank.
 
-## Buying real cards
+===accordion
+===panel: Buying real cards
 
 You are gonna want to order any preferred real copies of cards from platforms such as [ManaPool](https://manapool.com/), [TCG Player](https://www.tcgplayer.com/), or simply [eBay](https://www.ebay.com/). I find that ManaPool is one of the best sources, because it gives you the option to pay for tracked shipping. This is typically required for orders $50+ USD, but is a boon even for smaller orders in the USA that can easily get lost or delayed by USPS. Tracked shipping is much more reliable and much faster, for both real and proxy cards. TCG Player does not expose these shipping options so it can be unpredictable what type of shipping you get, and so its very common for TCG Player orders shipped untracked via USPS to get lost, rejected, or take 3+ weeks to arrive.
 
 It can still be economical to buy real cards especially for cards that cost less than about $0.50 USD which you may not need quickly, or if you want special versions of cards such as promo stamped or Pre Release date stamped cards.
 
-## Proxy Cards
+===endpanel
+===endaccordion
+
+===accordion
+===panel: Proxy Cards
 
 The section you have all been waiting for. Now its time to start looking at options online for proxy cards. There are many.
 
@@ -235,8 +255,8 @@ In general, there are two types of proxy cards you will encounter:
 
 - "bootleg" cards: these are cards which are designed to look identical to "real" cards, with original accurate card fronts and standard MTG card backs.
 
-### Custom Printed
-
+===accordion
+===panel: Custom Printed Proxy Cards
 
 #### MPCFill + MPC
 
@@ -296,7 +316,11 @@ In regards to print quality, it is not actually on par with the real MPC, and is
 
 Overall this website is legitimate but given their quality I would typically just wait the extra 5-7 days for delivery from the real MPC instead.
 
-### Replica "Boot Leg" Cards
+===endpanel
+===endaccordion
+
+===accordion
+===panel: Replica "Boot Leg" Cards
 
 There are many vendors that supply bootleg MTG cards which are intended to be 1:1 replicas of real cards. Unlike the custom printed proxy vendors who print cards to order, these cards are pre-printed and sold as-is based on available stock. Vendors restock often, and update their stock as new MTG sets are released.
 
@@ -332,7 +356,17 @@ A USA based reseller offering a large inventory of cards. Their cards are high q
 
 A USA based reseller. This one is not part of the Reddit /r/bootlegmtg group and instead has (had) a reddit at https://www.reddit.com/r/CreateMTG/ . This reseller is notable for insanely fast shipping speeds. While most other USA based resellers are delivering cards in about 5-10 business days (sometimes longer), Tolarian Library somehow manages to consistenly deliver within 3-5 business days. Its not uncommon for orders placed on Saturday or Sunday to arrive at your door by Thursday or Friday. The quality of their cards is the same as all other bootleg vendors, and their website includes a deck list importer as well. They have some sort of community-based printing request system in place as well. Overall this is an extremely high quality and reputable vendor for USA-based customers. Note that they recently changed their name and their domain to "Last Genesis". Same vendor with the same high quality cards and same fast shipping.
 
-# Putting it all together
+===endpanel
+===endaccordion
+
+===endpanel
+===endaccordion
+
+===endpanel
+===endaccordion
+
+===accordion
+===panel: Putting it all together
 
 Between the resources described here, we have complete coverage of all the essentail resources needed to prototype, test, and build Magic the Gathering decks, especially for the Commander format.
 
@@ -343,3 +377,6 @@ Between the resources described here, we have complete coverage of all the essen
 # References
 
 - ["How to Make Proxies" by JollyCasual](https://moxfield.com/decks/Lk1SbEgVxk6x46FlbuIDDw/primer)
+
+===endpanel
+===endaccordion
